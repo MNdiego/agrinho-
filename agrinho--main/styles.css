@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    background: #1a751d;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção de Introdução */
+.intro {
+    background: url('img/kkkk.jpg') no-repeat center center/cover;
+    padding: 200px 30px;
+}
+
+.intro h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 5.0em;
+    margin-bottom: 1em;
+}
+
+.intro p {
+    font-size: 2.0em;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: #f8f6f6a6;
+}
+
+/* Sobre o Evento */
+.informacoes, .programacao, .depoimentos {
+    padding: 40px 20px;
+    background: #ffffff;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #1a751d;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #f8f6f6a6;
+    font-family: Arial, sans-serif;
+}
+
+.informacoes p, .programacao ul, .depoimentos p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Programação */
+.programacao ul {
+    list-style-type: none;
+}
+
+.programacao li {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.programacao li .data {
+    font-weight: bold;
+    color: #1a751d;
+}
+
+/* Depoimentos */
+.depoimentos {
+    background-color: #e0f7fa;
+}
+
+.depoimento {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.depoimento span {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #1a751d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
